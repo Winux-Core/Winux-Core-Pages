@@ -1,0 +1,22 @@
+{
+  "name": "winux-pages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "packageManager": "pnpm@10.30.3",
+  "dependencies": {
+    "@sveltejs/kit": "^2.53.4",
+    "markdown-it": "^14.1.1",
+    "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "svelte": "^5.53.7"
+  }
+}

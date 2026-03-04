@@ -1,0 +1,24 @@
+import { h as head, a as attr } from "../../chunks/root.js";
+import { b as base } from "../../chunks/server.js";
+import "../../chunks/url.js";
+import "@sveltejs/kit/internal/server";
+function _page($$renderer) {
+  head("1uha8ag", $$renderer, ($$renderer2) => {
+    $$renderer2.title(($$renderer3) => {
+      $$renderer3.push(`<title>The Winux Foundation | Fluff-Free Cross-Platform Open Source</title>`);
+    });
+    $$renderer2.push(`<meta name="description" content="The Winux Foundation is building a fluff-free, OS holy war-free cross-platform userspace for developers and sysadmins."/> <link rel="preconnect" href="https://fonts.googleapis.com"/> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/> <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>`);
+  });
+  $$renderer.push(`<div class="page-shell svelte-1uha8ag"><header class="hero panel svelte-1uha8ag"><p class="eyebrow svelte-1uha8ag">Sole Proprietorship Open Source Org</p> <h1 class="svelte-1uha8ag">The Winux Foundation</h1> <p class="lead svelte-1uha8ag">Building a fluff-free, OS holy war-free cross-platform userspace where members of both sides can
+      develop, design, communicate, and thrive.</p> <div class="chip-row svelte-1uha8ag"><span class="chip windows svelte-1uha8ag">Windows-grade UX</span> <span class="chip linux svelte-1uha8ag">Linux-native control</span> <span class="chip neutral svelte-1uha8ag">Built for developers + sysadmins</span></div> <div class="action-row svelte-1uha8ag"><a class="action-link svelte-1uha8ag"${attr("href", `${base}/projects`)}>Explore Project Blob</a></div></header> <main class="content-grid svelte-1uha8ag"><section id="about" class="panel section-card svelte-1uha8ag"><h2 class="svelte-1uha8ag">About</h2> <p class="svelte-1uha8ag">The Winux Foundation exists to end platform tribalism at the user-space layer. We build practical,
+        openly-developed tooling that respects both Windows and Linux workflows without forcing either side to
+        compromise how they work.</p> <p class="svelte-1uha8ag">Our operating model is simple: publish source, keep docs close to code, prioritize deterministic builds,
+        and ship utilities that solve real operator pain.</p></section> <section id="vision" class="panel section-card svelte-1uha8ag"><h2 class="svelte-1uha8ag">Vision</h2> <p class="svelte-1uha8ag">We are currently focused on tools, moving into dev utilities, then a Linux-based OS track. The long-term
+        goal is an XDG, Unix, Linux, and NT32 compliant kernel that intertwines syscall models from both sides
+        without relying on a translation layer.</p> <ul class="svelte-1uha8ag"><li class="svelte-1uha8ag">Now: cross-platform tools with clean operator ergonomics</li> <li class="svelte-1uha8ag">Next: deeper developer and systems utilities</li> <li class="svelte-1uha8ag">End state: unified compliance-driven kernel architecture</li></ul></section> <section id="contribute" class="panel section-card svelte-1uha8ag"><h2 class="svelte-1uha8ag">Contribute</h2> <p class="svelte-1uha8ag">Primary audience is developers and sysadmins. If you care about systems clarity, reproducibility, and
+        low-friction collaboration across platform boundaries, we want your input.</p> <div class="contrib-grid svelte-1uha8ag"><article class="svelte-1uha8ag"><h3 class="svelte-1uha8ag">Code</h3> <p class="svelte-1uha8ag">Build core tools, runtime pieces, automation, and platform integration paths.</p></article> <article class="svelte-1uha8ag"><h3 class="svelte-1uha8ag">Ops</h3> <p class="svelte-1uha8ag">Improve CI, release discipline, packaging, and cross-platform test coverage.</p></article> <article class="svelte-1uha8ag"><h3 class="svelte-1uha8ag">Design + Docs</h3> <p class="svelte-1uha8ag">Shape interface clarity and write documentation that respects real operator context.</p></article></div> <a class="inline-link svelte-1uha8ag"${attr("href", `${base}/projects`)}>See active repositories</a></section> <section id="contact" class="panel section-card svelte-1uha8ag"><h2 class="svelte-1uha8ag">Contact</h2> <p class="svelte-1uha8ag">Reach out for collaboration, contribution alignment, and partnership discussions tied to cross-platform
+        open source systems work.</p> <div class="contact-box svelte-1uha8ag"><p class="svelte-1uha8ag"><strong>Organization:</strong> The Winux Foundation</p> <p class="svelte-1uha8ag"><strong>Focus:</strong> Cross-platform systems tooling and architecture</p> <p class="svelte-1uha8ag"><strong>GitHub:</strong> <a href="https://github.com/orgs/Winux-Core/repositories">Winux-Core</a></p> <p class="svelte-1uha8ag"><strong>Email:</strong> hello@winux.foundation</p></div></section></main></div>`);
+}
+export {
+  _page as default
+};
