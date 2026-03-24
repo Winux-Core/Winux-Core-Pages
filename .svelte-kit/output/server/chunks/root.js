@@ -4075,6 +4075,10 @@ function attributes(attrs, css_hash, classes, styles, flags2 = 0) {
   }
   return attr_str;
 }
+function attr_class(value, hash, directives) {
+  var result = to_class(value, hash, directives);
+  return result ? ` class="${escape_html(result, true)}"` : "";
+}
 function ensure_array_like(array_like_or_iterator) {
   if (array_like_or_iterator) {
     return array_like_or_iterator.length !== void 0 ? array_like_or_iterator : Array.from(array_like_or_iterator);
@@ -4215,6 +4219,8 @@ const root = asClassComponent(Root);
 export {
   attr as a,
   ensure_array_like as b,
+  attr_class as c,
+  clsx as d,
   escape_html as e,
   getContext as g,
   head as h,

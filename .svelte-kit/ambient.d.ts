@@ -138,7 +138,6 @@ declare module '$env/static/private' {
 	export const CSF_XSMessage: string;
 	export const MMGT_CLEAR: string;
 	export const GDK_BACKEND: string;
-	export const CODEX_SANDBOX_NETWORK_DISABLED: string;
 	export const PATH: string;
 	export const CSF_TObjDefaults: string;
 	export const npm_config_node_gyp: string;
@@ -338,7 +337,6 @@ declare module '$env/dynamic/private' {
 		CSF_XSMessage: string;
 		MMGT_CLEAR: string;
 		GDK_BACKEND: string;
-		CODEX_SANDBOX_NETWORK_DISABLED: string;
 		PATH: string;
 		CSF_TObjDefaults: string;
 		npm_config_node_gyp: string;
